@@ -1,0 +1,5 @@
+product/app/WebViewGoogle/WebViewGoogle.apk.xz
+product/app/Photos/Photos.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+product/priv-app/Messages/Messages.apk.xz
