@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for the partition: /product -->
+<permissions>
+    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="com.google.android.gms">
+        <permission name="android.permission.CALL_AUDIO_INTERCEPTION"/>
+        <permission name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.orange.aura.oobe">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.orange.update">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.extmonitorapp">
+        <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.moviecreator">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.photopro">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.wifi">
+        <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sonymobile.wifi.presetnetwork">
+        <permission name="android.permission.NETWORK_CARRIER_PROVISIONING"/>
+    </privapp-permissions>
+
+</permissions>
